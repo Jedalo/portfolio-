@@ -292,8 +292,8 @@
       }
       function success() {
         swal({
-            title: "Good job!",
-            text: "You clicked the button!",
+            title: "Email sent successfully!",
+            text: "We'll try to reply in 24 hours.",
             icon: "success",
         });
       }
@@ -306,7 +306,7 @@
 
       let scrollTop = document.querySelector(".scroll-top");
 
-
+        
       window.addEventListener("scroll", () => {
         scrollTop.classList.toggle("scroll-active", window.scrollY >= 400);
       });
